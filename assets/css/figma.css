@@ -1,0 +1,188 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
+:root{
+   --logo:#FF0081;
+   --gray:#5a4a4db9;
+   --white: white;
+   --pink-background: #FF59A9;
+   --pink-background-sec: #ff00be;
+   --pink-title:#F678C3;
+   --purple:#AA678F;
+   --rodape: #BB005A;
+   --white-text:#ffffff7a;
+   --white-background: #f5f5f5;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.j-between{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g-medium{
+  gap: 28px;
+}
+
+.m-medium{
+  margin: 28px;
+}
+
+.g-small{
+  gap: 18px;
+}
+
+.itens-center{
+  align-items: center;
+}
+
+.margin-header {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-family: "Lily Script One", system-ui;
+  font-size: 48;
+  color: var(--logo);
+  font-weight: lighter;
+}
+
+.nav-text {
+  font-family: "Georama", sans-serif;
+  font-style: italic;
+  font-size: 32;
+}
+
+.a-text {
+  color: var(--gray);
+}
+
+.a-text:hover {
+  color: var(--pink-background);
+}
+
+
+.justify {
+   justify-content: center;
+}
+
+.flex {
+   flex-direction: row;
+}
+
+.rede-i {
+   width: 60px;
+}
+
+.rede-f {
+   width: 37px;
+   padding-top: 3px;
+}
+
+.rede-t {
+   width: 39px;
+   padding-top: 3px;
+}
+
+.rodape-text {
+   font-family: "DM Sans", sans-serif;
+   font-size: 16px;
+   text-align: center;
+   padding: 15px;
+   font-weight: bold;
+   color: var(--white-text);
+}
+
+footer {
+   background-color: var(--rodape);
+   padding: 40px;
+}
+
+.rodape {
+   color: var(--white);
+   font-size: 28px;
+}
+
+main {
+  background-color: var(--white-background);
+  padding: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+h2 {
+   font-family: "Alfa Slab One", serif;
+   font-weight: lighter;
+   color: var(--logo);
+   font-size: 37px;
+   text-align: center;
+   position: relative;
+   padding-bottom: 10px;
+}
+
+.resumo-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 50px;
+  text-align: justify;
+}
+
+h3 {
+  font-family: "Alfa Slab One", serif;
+  font-weight: lighter;
+  color: var(--logo);
+  font-size: 27px;
+  position: relative;
+}
+
+.conhecimentos {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 50px;
+  text-align: justify;
+}
+
+.top {
+  padding-left: 25px;
+  color: var(--logo);
+}
+
+.top1 {
+  color: black;
+}
+
+.dificuldades {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 50px;
+  text-align: justify;
+}
